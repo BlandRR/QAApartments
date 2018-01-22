@@ -11,10 +11,6 @@ namespace TestProject.Page_Objects
     class HomePage
     {
 
-        private IWebDriver driver;
-
-
-
         [FindsBy(How = How.CssSelector, Using = "")]
         public IWebElement Add_Apartment_Button { get; set; }
 
@@ -57,9 +53,6 @@ namespace TestProject.Page_Objects
         {
             return Notifications.Text;
         }
-
-
-
 
 
     }
