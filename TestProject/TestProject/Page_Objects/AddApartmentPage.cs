@@ -68,6 +68,35 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#form > button")]
         public IWebElement SubmitButton { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(14) > div.react-datepicker-popper > div > div.react-datepicker__month-container > div.react-datepicker__month > div:nth-child(4) > div.react-datepicker__day.react-datepicker__day--tue")]
+        IWebElement dayLS { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(14) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--next")]
+        IWebElement NextMonthLS { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(14) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--previous")]
+        IWebElement PrevMonthLS { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(15) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--next")]
+        IWebElement NextMonthLE { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(15) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--previous")]
+        IWebElement PrevMonthLE { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(15) > div.react-datepicker-popper > div > div.react-datepicker__month-container > div.react-datepicker__month > div:nth-child(4) > div.react-datepicker__day.react-datepicker__day--mon")]
+        IWebElement dayLE { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(16) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--next")]
+        IWebElement NextMonthBC { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(16) > div.react-datepicker-popper > div > a.react-datepicker__navigation.react-datepicker__navigation--previous")]
+        IWebElement PrevMonthBC { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(16) > div.react-datepicker-popper > div > div.react-datepicker__month-container > div.react-datepicker__month > div:nth-child(4) > div.react-datepicker__day.react-datepicker__day--mon")]
+        IWebElement dayBC { get; set; }
+
+
+
 
         public void EnterBuildingName(String BuName)
         {
@@ -91,16 +120,26 @@ namespace TestProject.Page_Objects
         }
         public void PickLeaseStart()
         {
-                 }
+            LeaseStartPicker.Click();
+            NextMonthLS.Click();
+            dayLS.Click();
+            LandlordTextBox.Click();
+        }
+    
         public void PickLeaseEnd()
         {
-            
-            Console.WriteLine("calendar method missing");
+            LeaseEndPicker.Click();
+            NextMonthLE.Click();
+            NextMonthLE.Click();
+            dayLE.Click();
         }
         public void PickBreakClause()
         {
-            
-            Console.WriteLine("calendar method missing");
+            BreakClausePicker.Click();
+            NextMonthBC.Click();
+            NextMonthBC.Click();
+            dayBC.Click();
+
         }
         public void EnterAgencyPhone(String AgNum)
         {
