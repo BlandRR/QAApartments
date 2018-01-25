@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestProject.Page_Objects
 {
-    class AddPersonToApartmentPage
+    class AddPersonToApartmentPage : HomePage
     {
     }
 }

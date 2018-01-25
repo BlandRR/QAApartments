@@ -5,7 +5,7 @@
 
 @SC
 Scenario: Enter valid standard information (v)
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -27,7 +27,7 @@ Scenario: Enter valid standard information (v)
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with empty building name 
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name ""
 	And I enter the Apartment number "1678"
@@ -49,7 +49,7 @@ Scenario: add apartment with empty building name
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with building name over max characters
-	Given I go to url "" 
+	Given I go to url "http://35.177.46.183:49160/" 
 	And I click the add apartment button
 	And I enter the building name "ZYimEbehzvLwmsLuBMhuXefrFqEWvXxdq"
 	And I enter the Apartment number "1678"
@@ -71,7 +71,7 @@ Scenario: add apartment with building name over max characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with building name with special characters
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building N&*&"
 	And I enter the Apartment number "1678"
@@ -93,7 +93,7 @@ Scenario: add apartment with building name with special characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with empty apartment number
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number ""
@@ -115,7 +115,7 @@ Scenario: add apartment with empty apartment number
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with apartment number over max characters
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "123456"
@@ -137,7 +137,7 @@ Scenario: add apartment with apartment number over max characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with apartment number special characters
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "16*$"
@@ -159,7 +159,7 @@ Scenario: add apartment with apartment number special characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with agency empty 
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -181,7 +181,7 @@ Scenario: add apartment with agency empty
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with agency over amx characters 
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -203,7 +203,7 @@ Scenario: add apartment with agency over amx characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with agency containing special characters
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -225,7 +225,7 @@ Scenario: add apartment with agency containing special characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with empty landlord name (v) 
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -247,7 +247,7 @@ Scenario: add apartment with empty landlord name (v)
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with landlord name, special linguistic characters (v)
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -269,7 +269,7 @@ Scenario: add apartment with landlord name, special linguistic characters (v)
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with landlord name over max characters
-	Given I go to url ""
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -291,7 +291,7 @@ Scenario: add apartment with landlord name over max characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with landlord name contains special characters
-	Given I go to url "http://52.56.148.73:49160/"
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -313,7 +313,7 @@ Scenario: add apartment with landlord name contains special characters
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with empty tenant name (v)
-	Given I go to url "http://52.56.148.73:49160/"
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"
@@ -335,7 +335,7 @@ Scenario: add apartment with empty tenant name (v)
 	Then A notification will pop up displaying message ""
 
 Scenario: add apartment with tenant name over max characters
-	Given I go to url "http://52.56.148.73:49160/"
+	Given I go to url "http://35.177.46.183:49160/"
 	And I click the add apartment button
 	And I enter the building name "Building Name"
 	And I enter the Apartment number "1678"

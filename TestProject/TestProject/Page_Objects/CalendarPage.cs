@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
 
 namespace TestProject.Page_Objects
 {
-    class CalendarPage
+    class CalendarPage : HomePage
     {
         
 
