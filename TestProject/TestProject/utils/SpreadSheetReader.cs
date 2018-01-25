@@ -33,7 +33,6 @@ namespace TestProject
             
 
             int xlRowCount = 0;
-            int cellCount = 0;
             int cellnum = 0;
             string cell;
 

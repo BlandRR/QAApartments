@@ -9,7 +9,7 @@ using OpenQA.Selenium.Support.PageObjects;
 
 namespace TestProject.Page_Objects
 {
-    class AddApartmentPage
+    class AddApartmentPage : HomePage
     {
         [FindsBy(How = How.CssSelector, Using = "#buildingName")]
         public IWebElement BuildingNameTextBox { get; set; }
@@ -184,6 +184,18 @@ namespace TestProject.Page_Objects
         public void ClickSubmit()
         {
             SubmitButton.Click();
+        }
+        public void EnterLSdate(String date)
+        {
+            LeaseStartPicker.SendKeys(date);
+        }
+        public void EnterLEdate(String date)
+        {
+            LeaseEndPicker.SendKeys(date);
+        }
+        public void EnterBreakClause(String date)
+        {
+            BreakClausePicker.SendKeys(date);
         }
     }
 }

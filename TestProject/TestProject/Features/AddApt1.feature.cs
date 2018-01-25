@@ -1,1 +1,1 @@
-﻿#error TechTalk.SpecFlow.Generator.Interfaces.TestGenerationError
+﻿//#error TechTalk.SpecFlow.Generator.Interfaces.TestGenerationError
