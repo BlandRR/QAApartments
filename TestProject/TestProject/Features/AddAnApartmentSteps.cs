@@ -7,13 +7,15 @@ using TestProject.utils;
 using TestProject.Page_Objects;
 using OpenQA.Selenium.Support.PageObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Threading;
+using OpenQA.Selenium.Remote;
 
 namespace TestProject.StepDefinitions
 {
     [Binding]
     public class AddAnApartmentSteps
     {
-        IWebDriver driver  ;
+        RemoteWebDriver driver;
         AddApartmentPage addApartmentPage = new AddApartmentPage();
         HomePage homePage = new HomePage();
         
@@ -21,9 +23,10 @@ namespace TestProject.StepDefinitions
         [Given(@"I go to url ""(.*)""")]
         public void GivenIGoToUrl(string p0)
         {
-            driver = WebDriverFactory.CreateDriver(WebDriverFactory.Browser.Edge);
-            driver.Navigate().GoToUrl(p0);
-            ScenarioContext.Current.Pending();
+            driver = WebDriverFactory.CreateDriver(WebDriverFactory.Browser.Chrome);
+            driver.Url = p0;
+            Thread.Sleep(1000);
+
         }
 
 
@@ -176,9 +179,12 @@ namespace TestProject.StepDefinitions
         }
 
         [Then(@"A notification will pop up displaying message ""(.*)""")]
-        public void ThenANotificationWillPopUpDisplayingMessage(string p0)
+        public void ThenANotificationWillPopUpDisplayingMessage(string messageEx)
         {
-            //assertion goes here
+            string message = addApartmentPage.getPopUptext();
+            Assert.AreEqual(messageEx, message);
+            driver.Close();
+            driver.Quit();
             ScenarioContext.Current.Pending();
         }
 
@@ -210,13 +216,14 @@ namespace TestProject.StepDefinitions
         {
             PageFactory.InitElements(driver, addApartmentPage);
             addApartmentPage.EnterBuildingName(bname);
+            
         }
 
         [Then(@"the building name box will display ""(.*)""")]
         public void ThenTheBuildingNameBoxWillDisplay(string bname)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string buildingName = addApartmentPage.BuildingNameTextBox.Text;
+            string buildingName = addApartmentPage.BuildingNameTextBox.GetAttribute("value");
             Assert.AreEqual(bname, buildingName);
             driver.Close();
             driver.Quit();
@@ -233,7 +240,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheApartmentNumberBoxWillDisplay(string apno)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string num = addApartmentPage.ApartNumTextBox.Text;
+            string num = addApartmentPage.ApartNumTextBox.GetAttribute("value");
             Assert.AreEqual(apno, num);
             driver.Close();
             driver.Quit();
@@ -250,7 +257,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheAgencyBoxWillDisplay(string agency)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string agname = addApartmentPage.AgencyTextBox.Text;
+            string agname = addApartmentPage.AgencyTextBox.GetAttribute("value");
             Assert.AreEqual(agency, agname);
             driver.Close();
             driver.Quit();
@@ -268,7 +275,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheLandlordBoxWillDisplay(string name)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string lanName = addApartmentPage.LandlordTextBox.Text;
+            string lanName = addApartmentPage.LandlordTextBox.GetAttribute("value");
             Assert.AreEqual(name, lanName);
             driver.Close();
             driver.Quit();
@@ -285,7 +292,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheTenantBoxWilDisplay(string name)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string tenName = addApartmentPage.TenantTextBox.Text;
+            string tenName = addApartmentPage.TenantTextBox.GetAttribute("value");
             Assert.AreEqual(name, tenName);
             driver.Close();
             driver.Quit();
@@ -302,7 +309,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheAgencyPhoneNumberBoxWillDisplay(string phone)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string Agnum = addApartmentPage.AgencyPhoneTextBox.Text;
+            string Agnum = addApartmentPage.AgencyPhoneTextBox.GetAttribute("value");
             Assert.AreEqual(phone, Agnum);
             driver.Close();
             driver.Quit();
@@ -319,7 +326,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheNumberOfRoomsTextBoxWillDisplay(string rooms)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string rmnum = addApartmentPage.NumRoomsTextBox.Text;
+            string rmnum = addApartmentPage.NumRoomsTextBox.GetAttribute("value");
             Assert.AreEqual(rooms, rmnum);
             driver.Close();
             driver.Quit();
@@ -336,7 +343,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheRentAmountWillBeDisplayedInTheRentBox(string rent)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string rntmnt = addApartmentPage.RentTextBox.Text;
+            string rntmnt = addApartmentPage.RentTextBox.GetAttribute("value");
             Assert.AreEqual(rent, rntmnt);
             driver.Close();
             driver.Quit();
@@ -353,7 +360,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheNotesWillBeDisplaydInTheNotesBox(string note)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string noteString = addApartmentPage.NotesTextBox.Text;
+            string noteString = addApartmentPage.NotesTextBox.GetAttribute("value");
             Assert.AreEqual(note, noteString);
             driver.Close();
             driver.Quit();
@@ -370,7 +377,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheStreetNameBoxWillDisplay(string street)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string streetname = addApartmentPage.Address3StreetTextBox.Text;
+            string streetname = addApartmentPage.Address3StreetTextBox.GetAttribute("value");
             Assert.AreEqual(street, streetname);
             driver.Close();
             driver.Quit();
@@ -387,7 +394,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheCityBoxWillDisplay(string city)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string cityname = addApartmentPage.Address4CityTextBox.Text;
+            string cityname = addApartmentPage.Address4CityTextBox.GetAttribute("value");
             Assert.AreEqual(city, cityname);
             driver.Close();
             driver.Quit();
@@ -405,7 +412,7 @@ namespace TestProject.StepDefinitions
         public void ThenThePostcodeBoxWillDisplay(string postcode)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string pcode = addApartmentPage.Address5PostCodeTextBox.Text;
+            string pcode = addApartmentPage.Address5PostCodeTextBox.GetAttribute("value");
             Assert.AreEqual(postcode, pcode);
             driver.Close();
             driver.Quit();
@@ -422,7 +429,7 @@ namespace TestProject.StepDefinitions
         public void ThenTheDepositBoxShouldDisplay(string dep)
         {
             PageFactory.InitElements(driver, addApartmentPage);
-            string depo = addApartmentPage.DepositTextBox.Text;
+            string depo = addApartmentPage.DepositTextBox.GetAttribute("value");
             Assert.AreEqual(dep, depo);
             driver.Close();
             driver.Quit();

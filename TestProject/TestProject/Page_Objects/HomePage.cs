@@ -23,7 +23,7 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(2) > a > button")]
         public IWebElement Add_Apartment_Button { get; set; }
 
-        [FindsBy(How = How.CssSelector, Using = "")]
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(3) > a > button")]
         public IWebElement Add_Person_Button { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(3) > a > button")]
@@ -39,6 +39,42 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "")]
         public IWebElement Notifications { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-info")]
+        public IWebElement InfoNot { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > div > span > div > div > div")]
+        public IWebElement Pop { get; set; }
+
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-success")]
+        public IWebElement SuccessNot { get; set; }
+
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-warning")]
+        public IWebElement WarningNot { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-danger")]
+        public IWebElement ErrorNot { get; set; }
+
+        public void ClickInfo()
+        {
+            InfoNot.Click();
+        }
+
+        public void ClickSuccess()
+        {
+            SuccessNot.Click();
+        }
+
+        public void ClickWarning()
+        {
+            WarningNot.Click();
+        }
+
+        public void ClickError()
+        {
+            ErrorNot.Click();
+        }
 
         public void ClickHome()
         {
@@ -80,6 +116,11 @@ namespace TestProject.Page_Objects
             return Notifications.Text;
         }
 
+        public String getPopUp()
+        {
+            return Pop.Text;
+
+        }
 
     }
 }

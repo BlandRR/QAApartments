@@ -95,12 +95,24 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div:nth-child(16) > div.react-datepicker-popper > div > div.react-datepicker__month-container > div.react-datepicker__month > div:nth-child(4) > div.react-datepicker__day.react-datepicker__day--mon")]
         IWebElement dayBC { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "")]
+        IWebElement NotificationPopUp { get; set; }
 
+        public String getPopUptext()
+        {
+            return NotificationPopUp.Text;
+        }
 
 
         public void EnterBuildingName(String BuName)
         {
             BuildingNameTextBox.SendKeys(BuName);
+        }
+
+        public string GetBName()
+        {
+            string bname = BuildingNameTextBox.Text;
+            return bname;
         }
         public void EnterApartmentNum(String ApNumber)
         {
