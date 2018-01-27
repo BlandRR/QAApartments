@@ -5,7 +5,7 @@ I want to be able to add a person
 
 @mytag
 Scenario: Enter a first name
-	Given I have gone to the url "http://52.56.173.71:49160/"
+	Given I will have gone to the url "http://52.56.173.71:49160/"
 	And I click the add person button
 	When I enter the first name "First"
 	Then THe first name box will display the value "First"
