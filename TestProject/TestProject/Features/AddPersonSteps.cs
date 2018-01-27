@@ -14,6 +14,16 @@ namespace TestProject
         AddPersonPage addPersonPage = new AddPersonPage();
         HomePage homePage = new HomePage();
 
+        
+        
+        [Given(@"I will have gone to the url ""(.*)""")]
+        public void GivenIWillHaveGoneToTheUrl(string url)
+        {
+            driver = WebDriverFactory.CreateDriver(WebDriverFactory.Browser.Chrome);
+            driver.Url = url;
+            Thread.Sleep(1000);
+        }   
+        
         [Given(@"I click the add person button")]
         public void GivenIClickTheAddPersonButton()
         {
