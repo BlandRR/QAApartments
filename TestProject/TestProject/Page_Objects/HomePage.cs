@@ -11,12 +11,23 @@ namespace TestProject.Page_Objects
     class HomePage
     {
 
-        [FindsBy(How = How.CssSelector, Using = "")]
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.container-fluid > ul > li:nth-child(1) > a")]
+        public IWebElement HomeButton { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.container-fluid > ul > li:nth-child(2) > a")]
+        public IWebElement ApartmentButton { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.container-fluid > ul > li:nth-child(3) > a")]
+        public IWebElement CalendarButton { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(2) > a > button")]
         public IWebElement Add_Apartment_Button { get; set; }
 
-
-        [FindsBy(How = How.CssSelector, Using = "")]
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(3) > a > button")]
         public IWebElement Add_Person_Button { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > p:nth-child(3) > a > button")]
+        public IWebElement AssigntoApt { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = "")]
         public IWebElement Search_Box { get; set; }
@@ -28,6 +39,57 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "")]
         public IWebElement Notifications { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-info")]
+        public IWebElement InfoNot { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > div > span > div > div > div")]
+        public IWebElement Pop { get; set; }
+
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-success")]
+        public IWebElement SuccessNot { get; set; }
+
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-warning")]
+        public IWebElement WarningNot { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div > button.btn.btn-danger")]
+        public IWebElement ErrorNot { get; set; }
+
+        public void ClickInfo()
+        {
+            InfoNot.Click();
+        }
+
+        public void ClickSuccess()
+        {
+            SuccessNot.Click();
+        }
+
+        public void ClickWarning()
+        {
+            WarningNot.Click();
+        }
+
+        public void ClickError()
+        {
+            ErrorNot.Click();
+        }
+
+        public void ClickHome()
+        {
+            HomeButton.Click();
+        }
+
+        public void ClickApartment()
+        {
+            ApartmentButton.Click();
+        }
+
+        public void ClickCalendar()
+        {
+            CalendarButton.Click();
+        }
 
         public void ClickAddApartment()
         {
@@ -54,6 +116,11 @@ namespace TestProject.Page_Objects
             return Notifications.Text;
         }
 
+        public String getPopUp()
+        {
+            return Pop.Text;
+
+        }
 
     }
 }

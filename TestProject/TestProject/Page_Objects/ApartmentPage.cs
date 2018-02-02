@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TestProject.Page_Objects
 {
-    class ApartmentPage
+    class ApartmentPage : HomePage
     {
         [FindsBy(How = How.CssSelector, Using = "#apartmentSelect")]
         public IWebElement ApartmentDropDown { get; set; }
