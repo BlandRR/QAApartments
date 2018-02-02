@@ -72,7 +72,7 @@ namespace TestProject.Features
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
@@ -122,7 +122,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 29
 this.ScenarioSetup(scenarioInfo);
 #line 30
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 31
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 32
@@ -172,7 +172,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 51
 this.ScenarioSetup(scenarioInfo);
 #line 52
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 53
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 54
@@ -222,7 +222,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 73
 this.ScenarioSetup(scenarioInfo);
 #line 74
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 75
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 76
@@ -272,7 +272,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 95
 this.ScenarioSetup(scenarioInfo);
 #line 96
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 97
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 98
@@ -322,7 +322,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 117
 this.ScenarioSetup(scenarioInfo);
 #line 118
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 119
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 120
@@ -372,7 +372,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 139
 this.ScenarioSetup(scenarioInfo);
 #line 140
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 141
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 142
@@ -422,7 +422,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 161
 this.ScenarioSetup(scenarioInfo);
 #line 162
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 163
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 164
@@ -472,7 +472,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 183
 this.ScenarioSetup(scenarioInfo);
 #line 184
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 185
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 186
@@ -522,7 +522,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 205
 this.ScenarioSetup(scenarioInfo);
 #line 206
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 207
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 208
@@ -572,7 +572,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 227
 this.ScenarioSetup(scenarioInfo);
 #line 228
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 229
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 230
@@ -622,7 +622,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 249
 this.ScenarioSetup(scenarioInfo);
 #line 250
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 251
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 252
@@ -672,7 +672,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 271
 this.ScenarioSetup(scenarioInfo);
 #line 272
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 273
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 274
@@ -722,7 +722,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 293
 this.ScenarioSetup(scenarioInfo);
 #line 294
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 295
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 296
@@ -772,7 +772,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 315
 this.ScenarioSetup(scenarioInfo);
 #line 316
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 317
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 318
@@ -822,7 +822,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 337
 this.ScenarioSetup(scenarioInfo);
 #line 338
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 339
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 340
@@ -872,7 +872,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 359
  this.ScenarioSetup(scenarioInfo);
 #line 360
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 361
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 362
@@ -922,7 +922,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 381
 this.ScenarioSetup(scenarioInfo);
 #line 382
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 383
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 384
@@ -972,7 +972,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 403
  this.ScenarioSetup(scenarioInfo);
 #line 404
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 405
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 406
@@ -1020,7 +1020,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 424
  this.ScenarioSetup(scenarioInfo);
 #line 425
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 426
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 427
@@ -1070,7 +1070,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 446
 this.ScenarioSetup(scenarioInfo);
 #line 447
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 448
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 449
@@ -1118,7 +1118,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 467
 this.ScenarioSetup(scenarioInfo);
 #line 468
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 469
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 470
@@ -1168,7 +1168,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 489
 this.ScenarioSetup(scenarioInfo);
 #line 490
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 491
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 492
@@ -1216,7 +1216,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 510
 this.ScenarioSetup(scenarioInfo);
 #line 511
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 512
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 513
@@ -1266,7 +1266,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 532
 this.ScenarioSetup(scenarioInfo);
 #line 533
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 534
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 535
@@ -1316,7 +1316,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 554
 this.ScenarioSetup(scenarioInfo);
 #line 555
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 556
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 557
@@ -1366,7 +1366,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 576
 this.ScenarioSetup(scenarioInfo);
 #line 577
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 578
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 579
@@ -1416,7 +1416,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 598
 this.ScenarioSetup(scenarioInfo);
 #line 599
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 600
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 601
@@ -1466,7 +1466,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 620
 this.ScenarioSetup(scenarioInfo);
 #line 621
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 622
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 623
@@ -1516,7 +1516,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 642
 this.ScenarioSetup(scenarioInfo);
 #line 643
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 644
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 645
@@ -1566,7 +1566,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 664
 this.ScenarioSetup(scenarioInfo);
 #line 665
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 666
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 667
@@ -1616,7 +1616,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 686
 this.ScenarioSetup(scenarioInfo);
 #line 687
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 688
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 689
@@ -1666,7 +1666,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 708
 this.ScenarioSetup(scenarioInfo);
 #line 709
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 710
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 711
@@ -1716,7 +1716,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 730
 this.ScenarioSetup(scenarioInfo);
 #line 731
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 732
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 733
@@ -1766,7 +1766,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 752
 this.ScenarioSetup(scenarioInfo);
 #line 753
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 754
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 755
@@ -1816,7 +1816,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 774
 this.ScenarioSetup(scenarioInfo);
 #line 775
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 776
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 777
@@ -1866,7 +1866,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 796
 this.ScenarioSetup(scenarioInfo);
 #line 797
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 798
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 799
@@ -1916,7 +1916,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 818
 this.ScenarioSetup(scenarioInfo);
 #line 819
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 820
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 821
@@ -1966,7 +1966,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 840
 this.ScenarioSetup(scenarioInfo);
 #line 841
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 842
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 843
@@ -2016,7 +2016,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 862
 this.ScenarioSetup(scenarioInfo);
 #line 863
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 864
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 865
@@ -2066,7 +2066,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 884
 this.ScenarioSetup(scenarioInfo);
 #line 885
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 886
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 887
@@ -2116,7 +2116,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 906
 this.ScenarioSetup(scenarioInfo);
 #line 907
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 908
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 909
@@ -2166,7 +2166,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 928
 this.ScenarioSetup(scenarioInfo);
 #line 929
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 930
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 931
@@ -2216,7 +2216,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 950
 this.ScenarioSetup(scenarioInfo);
 #line 951
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 952
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 953
@@ -2266,7 +2266,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 972
 this.ScenarioSetup(scenarioInfo);
 #line 973
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 974
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 975
@@ -2316,7 +2316,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 994
  this.ScenarioSetup(scenarioInfo);
 #line 995
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 996
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 997
@@ -2366,7 +2366,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1016
 this.ScenarioSetup(scenarioInfo);
 #line 1017
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1018
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1019
@@ -2416,7 +2416,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1038
 this.ScenarioSetup(scenarioInfo);
 #line 1039
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1040
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1041
@@ -2466,7 +2466,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1060
 this.ScenarioSetup(scenarioInfo);
 #line 1061
- testRunner.Given("I go to url \"http://52.56.173.71:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1062
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1063
@@ -2516,7 +2516,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1082
 this.ScenarioSetup(scenarioInfo);
 #line 1083
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1084
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1085
@@ -2534,7 +2534,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1088
 this.ScenarioSetup(scenarioInfo);
 #line 1089
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1090
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1091
@@ -2552,7 +2552,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1094
 this.ScenarioSetup(scenarioInfo);
 #line 1095
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1096
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1097
@@ -2570,7 +2570,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1100
 this.ScenarioSetup(scenarioInfo);
 #line 1101
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1102
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1103
@@ -2588,7 +2588,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1106
 this.ScenarioSetup(scenarioInfo);
 #line 1107
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1108
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1109
@@ -2606,7 +2606,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1112
 this.ScenarioSetup(scenarioInfo);
 #line 1113
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1114
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1115
@@ -2624,7 +2624,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1118
 this.ScenarioSetup(scenarioInfo);
 #line 1119
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1120
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1121
@@ -2642,7 +2642,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1124
 this.ScenarioSetup(scenarioInfo);
 #line 1125
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1126
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1127
@@ -2660,7 +2660,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1130
 this.ScenarioSetup(scenarioInfo);
 #line 1131
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1132
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1133
@@ -2678,7 +2678,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1136
 this.ScenarioSetup(scenarioInfo);
 #line 1137
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1138
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1139
@@ -2696,7 +2696,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1142
 this.ScenarioSetup(scenarioInfo);
 #line 1143
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1144
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1145
@@ -2714,7 +2714,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1148
 this.ScenarioSetup(scenarioInfo);
 #line 1149
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1150
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1151
@@ -2732,7 +2732,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 1154
 this.ScenarioSetup(scenarioInfo);
 #line 1155
- testRunner.Given("I go to url \"http://52.56.173.71:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I go to url \"http://35.178.15.189:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1156
  testRunner.And("I click the add apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 1157

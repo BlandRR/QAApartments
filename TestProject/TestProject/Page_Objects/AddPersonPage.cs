@@ -22,7 +22,13 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#PhoneNumber")]
         public IWebElement MobileBox { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > button")]
+        public IWebElement SubmitButton { get; set; }
 
+        public void ClickSubmit()
+        {
+            SubmitButton.Click();
+        }
         public void EnterFirstName(String fname)
         {
             FirstNameBox.SendKeys(fname);
@@ -49,7 +55,7 @@ namespace TestProject.Page_Objects
         }
         public String GetEmail()
         {
-            return LastNameBox.GetAttribute("value");
+            return EmailBox.GetAttribute("value");
         }
         public String GetPhoneNum()
         {
