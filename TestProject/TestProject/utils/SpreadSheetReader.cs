@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace TestProject
             x1App1 = new Application();
             List<List<string>> spsheet = new List<List<string>>();
             List<string> row = new List<string>();
-            
+
             string pth = System.Reflection.Assembly.GetCallingAssembly().CodeBase;
             string actualpath = pth.Substring(0, pth.LastIndexOf("bin"));
             string projectpath = new Uri(actualpath).LocalPath;
@@ -30,25 +31,25 @@ namespace TestProject
             worksheet = workbook.Sheets[SheetNo];
 
             Range x1Range = worksheet.UsedRange;
-            
+
 
             int xlRowCount = 0;
             int cellnum = 0;
             string cell;
 
-            for(xlRowCount = 1; xlRowCount <= x1Range.Rows.Count; xlRowCount++)
+            for (xlRowCount = 1; xlRowCount <= x1Range.Rows.Count; xlRowCount++)
             {
-                for(cellnum = 1; cellnum<=10; cellnum++)
+                for (cellnum = 1; cellnum <= 10; cellnum++)
                 {
                     cell = (string)(x1Range.Cells[xlRowCount, cellnum] as Range).Value2;
                     row.Add(cell);
-                    
+
                 }
                 spsheet.Add(row);
             }
             return spsheet;
 
-            
+
 
 
         }

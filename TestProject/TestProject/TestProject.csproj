@@ -100,6 +100,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddPerson.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\Calendar.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Calendar.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\CalendarSteps.cs" />
     <Compile Include="Features\HomePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -115,6 +121,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Features\AddAnApartmentSteps.cs" />
     <Compile Include="utils\API.cs" />
+    <Compile Include="utils\DateFormatter.cs" />
     <Compile Include="utils\SpreadSheetReader.cs" />
     <Compile Include="utils\WebDriverFactory.cs" />
   </ItemGroup>
@@ -130,6 +137,10 @@
     <None Include="Features\AddPerson.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddPerson.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\Calendar.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Calendar.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
