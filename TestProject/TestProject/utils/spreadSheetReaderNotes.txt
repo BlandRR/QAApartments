@@ -1,0 +1,28 @@
+Spreadsheet notes
+
+SheetNo. starts at 1
+Row and Column start at 0
+
+SpreadSheetReader reader = new SpreadSheetReader();
+String location = "Just file name if in environment";
+int SheetNum = 7;
+
+particular sheet must be declared as such (in or out of method):
+var AptSheet = reader.Read(location, SheetNum);
+
+initialise for loop for the rows, declaring the variables as fixed columns, eg.
+
+            for (int i = 0; i < AptSheet.Count; i++)
+            {
+                string req = AptSheet[i][1];
+                string hos = AptSheet[i][4];
+                int port = Int32.Parse(AptSheet[i][5]);
+                string url = AptSheet[i][6];
+                string body = AptSheet[i][3];
+                var response = ApiCall(req, hos, port, url, body);
+                string status = response.StatusCode.ToString();
+                string message = response.Content.ToString();
+                Console.WriteLine(status + "||" + message);
+            }
+
+!! ALL ROWS HAVE TO BE PROPERLY FORMATTED, OTHERWISE NONE WILL RUN, THANK C# FOR THAT ONE !!

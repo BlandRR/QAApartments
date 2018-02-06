@@ -41,7 +41,8 @@ namespace TestProject
             {
                 for (cellnum = 1; cellnum <= 10; cellnum++)
                 {
-                    cell = (string)(x1Range.Cells[xlRowCount, cellnum] as Range).Value2;
+                    cell = x1Range.Cells[xlRowCount, cellnum].Text.ToString();
+                    
                     row.Add(cell);
 
                 }

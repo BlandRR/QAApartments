@@ -43,4 +43,5 @@ Scenario: Calendar Going back to the year and picking a new day
 	And I click on the months
 	And I click on a random month
 	And I click on a random day
-	Then The calendar header should display the date chosen
+	Then The calendar header should display the date chosen 
+

@@ -23,7 +23,7 @@ namespace TestProject.Features
         String dayNum;
         String month;
         String year;
-
+        API API = new API();
         [Given(@"I go the homepage of url ""(.*)""")]
         public void GivenIGoTheHomepageOfUrl(string url)
         {
@@ -140,6 +140,7 @@ namespace TestProject.Features
             Console.WriteLine(dt + "||" + DoW + "||" + dateString);
             
         }
+
 
 
     }
