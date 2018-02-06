@@ -5,7 +5,7 @@
 
 @mytag
 Scenario: Calendar Going back to select a month
-	Given I go the homepage of url "http://35.177.63.223:49160/"
+	Given I go the homepage of url "http://35.178.30.238:49160/"
 	And I click on the calendar button
 	When I click on the day
 	And I click on the days
@@ -13,21 +13,21 @@ Scenario: Calendar Going back to select a month
 	Then The calendar header should display the year
 
 Scenario: Calendar Clicking on an hour in a day will display that hour in full
-	Given I go the homepage of url "http://35.177.63.223:49160/"
+	Given I go the homepage of url "http://35.178.30.238:49160/"
 	And I click on the calendar button
 	When I click on the day
 	And I click on an hour in that day
 	Then the full hour should be displayed under the date
 
 Scenario: Calendar Going back from the current day to the month
-	Given I go the homepage of url "http://35.177.63.223:49160/"
+	Given I go the homepage of url "http://35.178.30.238:49160/"
 	And I click on the calendar button
 	When I click on the day 
 	And I click on the days
 	Then The calendar header should display the date chosen
 
 Scenario: Calendar Going back to the year and picking a new Month
-	Given I go the homepage of url "http://35.177.63.223:49160/"
+	Given I go the homepage of url "http://35.178.30.238:49160/"
 	And I click on the calendar button
 	When I click on the day
 	And I click on the days
@@ -36,7 +36,7 @@ Scenario: Calendar Going back to the year and picking a new Month
 	Then The calendar header should display the date chosen
 
 Scenario: Calendar Going back to the year and picking a new day
-	Given I go the homepage of url "http://35.177.63.223:49160/"
+	Given I go the homepage of url "http://35.178.30.238:49160/"
 	And I click on the calendar button
 	When I click on the day
 	And I click on the days
