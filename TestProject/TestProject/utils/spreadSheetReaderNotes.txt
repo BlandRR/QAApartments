@@ -25,4 +25,10 @@ initialise for loop for the rows, declaring the variables as fixed columns, eg.
                 Console.WriteLine(status + "||" + message);
             }
 
-!! ALL ROWS HAVE TO BE PROPERLY FORMATTED, OTHERWISE NONE WILL RUN, THANK C# FOR THAT ONE !!
+!! ALL ROWS AND CELLS HAVE TO BE PROPERLY FORMATTED (no doubles apparently, JSON with ', not "), OTHERWISE NONE WILL RUN, THANK C# FOR THAT ONE !!
+
+can also specify exactly which cell to use, with:
+
+string example = ExampleSheet[x][y];
+
+but again, all other cells must be properly formatted as you read from a list of lists, not the sheet directly.

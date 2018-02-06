@@ -9,10 +9,7 @@ namespace TestProject
 {
     class API
     {
-        SpreadSheetReader reader = new SpreadSheetReader();
-        String location = "CopyCopyTest_Plan1.xlsx";
-        string sheetName = "Apartment";
-        int no = 7;
+
         public IRestResponse ApiCall(String method, String hostName, int port, String url, String jsonBody)
         {
             var client = new RestClient(hostName + port + url);
