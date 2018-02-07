@@ -7,6 +7,8 @@ using System.Threading;
 using TechTalk.SpecFlow;
 using TestProject.Page_Objects;
 using TestProject.utils;
+using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium;
 
 namespace TestProject.Features
 {
@@ -14,6 +16,7 @@ namespace TestProject.Features
     public class CalendarSteps
     {
         RemoteWebDriver driver;
+        Actions action;
         HomePage homePage = new HomePage();
         CalendarPage calendarPage = new CalendarPage();
         String dateString;
@@ -28,6 +31,7 @@ namespace TestProject.Features
         public void GivenIGoTheHomepageOfUrl(string url)
         {
             driver = WebDriverFactory.CreateDriver(WebDriverFactory.Browser.Chrome);
+            action = new Actions(driver);
             driver.Url = url;
             Thread.Sleep(1000);
             driver.Manage().Window.Maximize();
@@ -44,7 +48,7 @@ namespace TestProject.Features
         public void WhenIClickOnTheDay()
         {
             PageFactory.InitElements(driver, calendarPage);
-            calendarPage.ThisDayBox.Click();
+            calendarPage.FirstDateVisible.Click();
             
         }
         
@@ -141,6 +145,43 @@ namespace TestProject.Features
             
         }
 
+        [When(@"I scroll left")]
+        public void WhenIScrollLeft()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            action.MoveByOffset(55, 50);
+            Thread.Sleep(500);
+            action.ClickAndHold().MoveByOffset(100,2).Release().Perform();
+            Thread.Sleep(500);
+        }
+
+        [When(@"I click on the previous year")]
+        public void WhenIClickOnThePreviousYear()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            string prevYear = calendarPage.FirstDateVisible.Text;
+            calendarPage.FirstDateVisible.Click();
+            dateString = prevYear;
+        }
+
+        [When(@"I scroll right")]
+        public void WhenIScrollRight()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            action.MoveByOffset(55, 50);
+            Thread.Sleep(500);
+            action.ClickAndHold().MoveByOffset(-100,2).Release().Perform();
+            Thread.Sleep(500);
+        }
+
+        [When(@"I click on the next year")]
+        public void WhenIClickOnTheNextYear()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            string nextYear = calendarPage.SecondDateVisible.Text;
+            calendarPage.SecondDateVisible.Click();
+            dateString = nextYear;
+        }
 
 
     }

@@ -10,13 +10,10 @@ namespace TestProject.Page_Objects
 {
     class CalendarPage : HomePage
     {
-        static Random rand = new Random();
-        public int rDay = rand.Next(36, 60);
-        public int rHour = rand.Next(28, 48);
-        public int rMonth = rand.Next(15, 25);
+
 
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(1)")]
-        public IWebElement ThisDayBox { get; set; }
+        public IWebElement FirstDateVisible { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div.rct-label-group")]
         public IWebElement HeaderBox { get; set; }
@@ -33,6 +30,11 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(3)")]
         public IWebElement FullHourBoxRand1 { get; set; }
 
-        
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-horizontal-lines > div")]
+        public IWebElement ScrollBar { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(2)")]
+        public IWebElement SecondDateVisible { get; set; }
+
     }
 }

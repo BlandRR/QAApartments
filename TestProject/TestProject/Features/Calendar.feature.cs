@@ -177,6 +177,58 @@ this.ScenarioSetup(scenarioInfo);
             this.ScenarioCleanup();
         }
         
+        [TechTalk.SpecRun.ScenarioAttribute("Scrolling to the previous year", SourceLine=47)]
+        public virtual void ScrollingToThePreviousYear()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Scrolling to the previous year", ((string[])(null)));
+#line 48
+this.ScenarioSetup(scenarioInfo);
+#line 49
+testRunner.Given("I go the homepage of url \"http://35.177.91.183:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 50
+testRunner.And("I click on the calendar button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 51
+testRunner.When("I click on the day", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 52
+testRunner.And("I click on the days", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 53
+testRunner.And("I click on the months", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 54
+testRunner.And("I scroll left", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 55
+testRunner.And("I click on the previous year", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 56
+testRunner.Then("The calendar header should display the date chosen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Scrolling to the next year", SourceLine=57)]
+        public virtual void ScrollingToTheNextYear()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Scrolling to the next year", ((string[])(null)));
+#line 58
+this.ScenarioSetup(scenarioInfo);
+#line 59
+testRunner.Given("I go the homepage of url \"http://35.177.91.183:49160\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 60
+testRunner.And("I click on the calendar button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 61
+testRunner.When("I click on the day", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 62
+testRunner.And("I click on the days", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 63
+testRunner.And("I click on the months", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 64
+testRunner.And("I scroll right", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 65
+testRunner.And("I click on the next year", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 66
+testRunner.Then("The calendar header should display the date chosen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
         [TechTalk.SpecRun.TestRunCleanup()]
         public virtual void TestRunCleanup()
         {

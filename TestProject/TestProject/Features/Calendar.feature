@@ -45,3 +45,23 @@ Scenario: Calendar Going back to the year and picking a new day
 	And I click on a random day
 	Then The calendar header should display the date chosen 
 
+Scenario: Scrolling to the previous year
+Given I go the homepage of url "http://35.177.91.183:49160"
+And I click on the calendar button
+When I click on the day
+And I click on the days
+And I click on the months
+And I scroll left
+And I click on the previous year
+Then The calendar header should display the date chosen
+
+Scenario: Scrolling to the next year
+Given I go the homepage of url "http://35.177.91.183:49160"
+And I click on the calendar button
+When I click on the day
+And I click on the days
+And I click on the months
+And I scroll right
+And I click on the next year
+Then The calendar header should display the date chosen
+

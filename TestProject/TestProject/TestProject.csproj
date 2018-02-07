@@ -100,6 +100,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddPerson.feature</DependentUpon>
     </Compile>
+    <Compile Include="Page_Objects\ApartmentPage.cs" />
+    <Compile Include="Features\ApartmentPg.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApartmentPg.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\ApartmentPageSteps.cs" />
     <Compile Include="Features\Calendar.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -115,7 +122,6 @@
     <Compile Include="Page_Objects\AddApartmentPage.cs" />
     <Compile Include="Page_Objects\AddPersonPage.cs" />
     <Compile Include="Page_Objects\AddPersonToApartmentPage.cs" />
-    <Compile Include="Page_Objects\ApartmentPage.cs" />
     <Compile Include="Page_Objects\CalendarPage.cs" />
     <Compile Include="Page_Objects\HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -138,6 +144,10 @@
     <None Include="Features\AddPerson.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddPerson.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\ApartmentPg.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ApartmentPg.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\Calendar.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
