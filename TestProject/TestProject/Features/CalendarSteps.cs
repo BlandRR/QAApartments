@@ -183,6 +183,27 @@ namespace TestProject.Features
             dateString = nextYear;
         }
 
+        [When(@"I click on a random month in the next year")]
+        public void WhenIClickOnARandomMonthInTheNextYear()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            string mon = calendarPage.MonthBoxRand2.Text;
+            year = calendarPage.SecondDateVisible.Text;
+            month = DateFormatter.PickMonth(mon);
+            calendarPage.MonthBoxRand2.Click();
+        }
+
+        [When(@"I click on a random month in the previous year")]
+        public void WhenIClickOnARandomMonthInThePreviousYear()
+        {
+            PageFactory.InitElements(driver, calendarPage);
+            string mon = calendarPage.MonthBoxRand3.Text;
+            year = calendarPage.FirstDateVisible.Text;
+            month = DateFormatter.PickMonth(mon);
+            calendarPage.MonthBoxRand3.Click();
+
+            
+        }
 
     }
 }

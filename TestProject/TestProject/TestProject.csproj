@@ -165,7 +165,6 @@
     <None Include="SpecRunTestProfile_2011_09.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Test_Plan.xlsx" />
     <None Include="Test_Plan1.xlsx" />
   </ItemGroup>
   <ItemGroup>

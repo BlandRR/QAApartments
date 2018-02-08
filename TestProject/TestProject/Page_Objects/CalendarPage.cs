@@ -21,6 +21,12 @@ namespace TestProject.Page_Objects
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(20)")]
         public IWebElement MonthBoxRand1 { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(28)")]
+        public IWebElement MonthBoxRand2 { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(17)")]
+        public IWebElement MonthBoxRand3 { get; set; }
+
         [FindsBy(How = How.CssSelector, Using = "#root > div > div > div.content > div > div > div > div.rct-scroll > div > div.rct-header > div:nth-child(38)")]
         public IWebElement DayBoxRand1 { get; set; }
 
