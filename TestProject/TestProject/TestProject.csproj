@@ -100,13 +100,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddPerson.feature</DependentUpon>
     </Compile>
-    <Compile Include="Page_Objects\ApartmentPage.cs" />
-    <Compile Include="Features\ApartmentPg.feature.cs">
+    <Compile Include="Features\SearchApartment.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ApartmentPg.feature</DependentUpon>
+      <DependentUpon>SearchApartment.feature</DependentUpon>
     </Compile>
-    <Compile Include="Features\ApartmentPageSteps.cs" />
+    <Compile Include="Features\SearchApartmentSteps.cs" />
+    <Compile Include="Page_Objects\ApartmentPage.cs" />
     <Compile Include="Features\Calendar.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -145,10 +145,6 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddPerson.feature.cs</LastGenOutput>
     </None>
-    <None Include="Features\ApartmentPg.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ApartmentPg.feature.cs</LastGenOutput>
-    </None>
     <None Include="Features\Calendar.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Calendar.feature.cs</LastGenOutput>
@@ -156,6 +152,10 @@
     <None Include="Features\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>HomePage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\SearchApartment.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SearchApartment.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
