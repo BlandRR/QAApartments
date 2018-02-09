@@ -70,7 +70,7 @@ namespace TestProject.Features
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
@@ -88,7 +88,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 13
 this.ScenarioSetup(scenarioInfo);
 #line 14
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 16
@@ -106,7 +106,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 19
 this.ScenarioSetup(scenarioInfo);
 #line 20
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 21
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 22
@@ -124,7 +124,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 25
 this.ScenarioSetup(scenarioInfo);
 #line 26
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 27
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 28
@@ -142,7 +142,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 31
 this.ScenarioSetup(scenarioInfo);
 #line 32
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 33
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 34
@@ -168,7 +168,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 41
 this.ScenarioSetup(scenarioInfo);
 #line 42
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 43
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 44
@@ -194,7 +194,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 51
 this.ScenarioSetup(scenarioInfo);
 #line 52
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 53
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 54
@@ -220,7 +220,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 61
 this.ScenarioSetup(scenarioInfo);
 #line 62
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 63
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 64
@@ -246,7 +246,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 71
 this.ScenarioSetup(scenarioInfo);
 #line 72
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 73
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 74
@@ -272,7 +272,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 81
 this.ScenarioSetup(scenarioInfo);
 #line 82
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 83
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 84
@@ -298,7 +298,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 91
 this.ScenarioSetup(scenarioInfo);
 #line 92
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 93
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 94
@@ -324,7 +324,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 101
 this.ScenarioSetup(scenarioInfo);
 #line 102
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 103
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 104
@@ -350,7 +350,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 111
 this.ScenarioSetup(scenarioInfo);
 #line 112
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 113
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 114
@@ -376,7 +376,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 121
 this.ScenarioSetup(scenarioInfo);
 #line 122
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 123
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 124
@@ -402,7 +402,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 131
 this.ScenarioSetup(scenarioInfo);
 #line 132
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 133
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 134
@@ -428,7 +428,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 141
 this.ScenarioSetup(scenarioInfo);
 #line 142
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 143
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 144
@@ -454,7 +454,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 151
 this.ScenarioSetup(scenarioInfo);
 #line 152
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 153
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 154
@@ -480,7 +480,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 161
 this.ScenarioSetup(scenarioInfo);
 #line 162
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 163
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 164
@@ -506,7 +506,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 171
 this.ScenarioSetup(scenarioInfo);
 #line 172
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 173
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 174
@@ -532,7 +532,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 181
 this.ScenarioSetup(scenarioInfo);
 #line 182
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 183
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 184
@@ -558,7 +558,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 191
 this.ScenarioSetup(scenarioInfo);
 #line 192
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 193
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 194
@@ -584,7 +584,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 201
 this.ScenarioSetup(scenarioInfo);
 #line 202
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 203
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 204
@@ -610,7 +610,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 211
 this.ScenarioSetup(scenarioInfo);
 #line 212
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 213
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 214
@@ -636,13 +636,13 @@ this.ScenarioSetup(scenarioInfo);
 #line 221
 this.ScenarioSetup(scenarioInfo);
 #line 222
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 223
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 224
  testRunner.When("I click the Home Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 225
- testRunner.Then("the Url should be \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the Url should be \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -654,13 +654,13 @@ this.ScenarioSetup(scenarioInfo);
 #line 227
 this.ScenarioSetup(scenarioInfo);
 #line 228
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 229
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 230
  testRunner.When("I click the Apartment button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 231
- testRunner.Then("the Url should be \"http://35.178.15.189:49160/apartment\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the Url should be \"http://35.178.30.238:49160/apartment\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -672,13 +672,13 @@ this.ScenarioSetup(scenarioInfo);
 #line 233
 this.ScenarioSetup(scenarioInfo);
 #line 234
- testRunner.Given("I will have navigated to the url \"http://35.178.15.189:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I will have navigated to the url \"http://35.178.30.238:49160/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 235
  testRunner.And("I click the add person button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 236
  testRunner.When("I click the calendar button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 237
- testRunner.Then("the Url should be \"http://35.178.15.189:49160/calendar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the Url should be \"http://35.178.30.238:49160/calendar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
